@@ -13,6 +13,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
     Console.WriteLine("Ponowny test zmiany");
     Console.WriteLine("Test wysy³ania zmian");
+    Console.WriteLine("Test wysy³ania zmian VS wersja 2");
+    Console.WriteLine("Test wysy³ania zmian VS wersja 3");
 }
 
 app.UseHttpsRedirection();
